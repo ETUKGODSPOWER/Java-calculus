@@ -10,7 +10,7 @@ public class calculus {
       double Base_length = scanner.nextInt();
 
       System.out.println("Enter the Base Width of the Pyramid : ");
-      double Base_width = scanner.nextInt();
+      double Base_Width = scanner.nextInt();
 
       System.out.println("Enter the Pyramid Height : ");
       double Pyramid_height = scanner.nextInt();
@@ -18,7 +18,7 @@ public class calculus {
 
   
   //Divide the base length and Base Width by 2
-  double first_div = Base_width/2;
+  double first_div = Base_Width/2;
   double second_div = Base_length/2;
   
   //square the first_div and second_div and the pyramid_height
@@ -38,11 +38,11 @@ public class calculus {
   
   //Multiply the Base_length and First_sect_sqrt for the first section and multiply the Base_width and the Second_sect_sqrt for the second section
   double first_collate = Base_length * First_sect_sqrt;  
-  double second_collate= Base_width * Second_sect_sqrt;
+  double second_collate= Base_Width * Second_sect_sqrt;
   
   
   // multiply the Base_length and the Base_with at the beginning of the formula
-  double front_sect = Base_length * Base_width;
+  double front_sect = Base_length * Base_Width;
   
  
  //Add all your valles in the first section and second section sepreately
